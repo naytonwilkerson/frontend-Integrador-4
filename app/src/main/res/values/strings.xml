@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Frontend-Integrador-4</string>
+    <string name="endereco">Endereco</string>
+    <string name="cadastro_de_igreja">Cadastro de Igreja</string>
+    <string name="telefone">Telefone:</string>
+    <string name="rua_ou_avenida">Nome da rua ou Avenida</string>
+    <string name="cnpj">CNPJ:</string>
+    <string name="apenas_numeros">Apenas numeros!</string>
+    <string name="nome">Nome:</string>
+    <string name="nome_da_igreja">Nome da Igreja</string>
+</resources>
