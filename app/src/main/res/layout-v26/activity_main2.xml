@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/order_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro_de_endereco"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/logra_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logradouro"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/logra_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:ems="10"
+        android:hint="@string/nome_da_rua_que_reside"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintBaseline_toBaselineOf="@+id/logra_label"
+        app:layout_constraintStart_toEndOf="@+id/logra_label" />
+
+    <TextView
+        android:id="@+id/numero_label"
+        android:layout_width="wrap_content"
+        android:layout_height="17dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/n_mero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logra_text" />
+
+    <EditText
+        android:id="@+id/numero_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="53dp"
+        android:ems="10"
+        android:hint="@string/n_mero_da_resid_ncia"
+        android:importantForAutofill="no"
+        android:inputType="textMultiLine"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numero_label"
+        app:layout_constraintStart_toEndOf="@+id/numero_label"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/Bairro_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/bairro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/complemento_text" />
+
+    <EditText
+        android:id="@+id/complemento_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/casa_apartamento_etc"
+        android:inputType="phone"
+        app:layout_constraintStart_toEndOf="@+id/complemento_label"
+        tools:layout_editor_absoluteY="162dp"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/complemento_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/complemeto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero_text" />
+
+    <EditText
+        android:id="@+id/bairro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/apenas_letras"
+        android:inputType="phone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/Bairro_label"
+        app:layout_constraintStart_toEndOf="@+id/Bairro_label"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/cidade_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/cidade"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cep_text" />
+
+    <EditText
+        android:id="@+id/cidade_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="61dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/cidade_que_reside"
+        android:inputType="phone"
+        app:layout_constraintStart_toEndOf="@+id/cidade_label"
+        tools:layout_editor_absoluteY="317dp"
+        tools:targetApi="o" />
+
+    <TextView
+        android:id="@+id/cep_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cep"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <EditText
+        android:id="@+id/cep_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/apenas_n_meros"
+        android:inputType="phone"
+        app:layout_constraintStart_toEndOf="@+id/cep_label"
+        tools:layout_editor_absoluteY="261dp"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/salvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

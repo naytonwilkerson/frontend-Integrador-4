@@ -8,4 +8,20 @@
     <string name="apenas_numeros">Apenas numeros!</string>
     <string name="nome">Nome:</string>
     <string name="nome_da_igreja">Nome da Igreja</string>
+    <string name="casa_apartamento_etc">Casa, apartamento etc..</string>
+    <string name="cidade">Cidade</string>
+    <string name="cep">Cep:</string>
+    <string name="bairro">Bairro:</string>
+    <string name="complemeto">Complemeto:</string>
+    <string name="apenas_letras">Apenas letras.</string>
+    <string name="n_mero">Número:</string>
+    <string name="logradouro">Logradouro:</string>
+    <string name="cadastro_de_endereco">Cadastro de Endereco</string>
+    <string name="apenas_n_meros">Apenas Números.</string>
+    <string name="cidade_que_reside">Cidade que reside.</string>
+    <string name="nome_da_rua_que_reside">Nome da rua que reside.</string>
+    <string name="n_mero_da_resid_ncia">Número da residência.</string>
+    <string name="salvar">Salvar</string>
+    <string name="cadastrsr_endereco">Cadastrsr Endereco</string>
+    <string name="xx_xxxxx_xxxx">(xx) xxxxx-xxxx</string>
 </resources>

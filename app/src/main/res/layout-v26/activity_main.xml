@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/name_label"
+        android:id="@+id/logra_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/order_textview" />
 
     <EditText
-        android:id="@+id/name_text"
+        android:id="@+id/logra_text"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="44dp"
@@ -37,21 +37,21 @@
         android:ems="10"
         android:hint="@string/apenas_numeros"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toEndOf="@+id/name_label"
+        app:layout_constraintStart_toEndOf="@+id/logra_label"
         tools:layout_editor_absoluteY="46dp" />
 
     <TextView
-        android:id="@+id/address_label"
+        android:id="@+id/numero_label"
         android:layout_width="wrap_content"
         android:layout_height="17dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="35dp"
         android:text="@string/nome"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/name_label" />
+        app:layout_constraintTop_toBottomOf="@+id/logra_label" />
 
     <EditText
-        android:id="@+id/address_text"
+        android:id="@+id/numero_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="44dp"
@@ -59,11 +59,11 @@
         android:ems="10"
         android:hint="@string/nome_da_igreja"
         android:inputType="textMultiLine"
-        app:layout_constraintStart_toEndOf="@+id/address_label"
+        app:layout_constraintStart_toEndOf="@+id/numero_label"
         tools:layout_editor_absoluteY="102dp" />
 
     <TextView
-        android:id="@+id/phone_label"
+        android:id="@+id/Bairro_label"
         android:layout_width="wrap_content"
         android:layout_height="17dp"
         android:layout_marginStart="24dp"
@@ -71,18 +71,18 @@
 
         android:text="@string/telefone"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/address_label" />
+        app:layout_constraintTop_toBottomOf="@+id/numero_label" />
 
     <EditText
-        android:id="@+id/phone_text"
+        android:id="@+id/complemento_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="@string/rua_ou_avenida"
+        android:hint="@string/xx_xxxxx_xxxx"
         android:inputType="phone"
-        app:layout_constraintStart_toEndOf="@+id/phone_label"
+        app:layout_constraintStart_toEndOf="@+id/Bairro_label"
         tools:layout_editor_absoluteY="157dp" />
 
     <Button
@@ -91,6 +91,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="24dp"
         android:text="@string/endereco"
+        android:onClick="bt2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
