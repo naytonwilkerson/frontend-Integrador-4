@@ -2,7 +2,7 @@
     <string name="app_name">Frontend-Integrador-4</string>
     <string name="endereco">Endereco</string>
     <string name="cadastro_de_igreja">Cadastro de Igreja</string>
-    <string name="telefone">Telefone:</string>
+    <string name="telefone">Telefone(s):</string>
     <string name="rua_ou_avenida">Nome da rua ou Avenida</string>
     <string name="cnpj">CNPJ:</string>
     <string name="apenas_numeros">Apenas numeros!</string>
@@ -24,4 +24,6 @@
     <string name="salvar">Salvar</string>
     <string name="cadastrsr_endereco">Cadastrsr Endereco</string>
     <string name="xx_xxxxx_xxxx">(xx) xxxxx-xxxx</string>
+    <string name="estado">Estado :</string>
+    <string name="estado_que_reside">Estado que reside.</string>
 </resources>
